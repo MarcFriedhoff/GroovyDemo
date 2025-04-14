@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Values version="2.0">
+  <value name="shared"></value>
+  <value name="encodeutf8">true</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>groovy.lang.Binding</value>
+    <value>groovy.lang.GroovyShell</value>
+    <value>java.io.File</value>
+    <value>java.io.IOException</value>
+    <value>java.nio.file.Files</value>
+    <value>java.nio.file.Path</value>
+    <value>java.nio.file.Paths</value>
+  </array>
 </Values>
