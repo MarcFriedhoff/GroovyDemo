@@ -40,14 +40,14 @@ public final class services
 		// Input XML string
 		String xmlInput = """
 		        <books>
-		            <book title="1984" author="George Orwell"/>
-		            <book title="Brave New World" author="Aldous Huxley"/>
+		            <book title="1984 " author="George Orwell"/>
+		            <book title="A Brave New World" author="Aldous Huxley"/>
 		        </books>
 		        """;
 		
 		Path currentRelativePath = Paths.get("");
 		String s = currentRelativePath.toAbsolutePath().toString();
-		System.out.println("Current absolute path is: " + s);
+		System.out.println("Current absolute path is:   " + s);
 		
 		// Load external script
 		
