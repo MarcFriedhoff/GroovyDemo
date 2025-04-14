@@ -48,7 +48,7 @@ public final class services
 		Path currentRelativePath = Paths.get("");
 		String s = currentRelativePath.toAbsolutePath().toString();
 		System.out.println("Current absolute path is: " + s);
-		
+		  
 		// Load external script
 		
 		File scriptFile = new File(s +"/packages/GroovyDemo/scripts/modifyXml.groovy"); // path to your script
