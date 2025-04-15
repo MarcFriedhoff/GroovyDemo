@@ -43,9 +43,10 @@ public final class services
 		            <book title="1984" author="George Orwell"/>
 		            <book title="Brave New World" author="Aldous Huxley"/>
 		        </books>
-		        """;
+		        """; 
 		
 		Path currentRelativePath = Paths.get("");
+		// something
 		String s = currentRelativePath.toAbsolutePath().toString();
 		System.out.println("Current absolute path is: " + s);
 		  
